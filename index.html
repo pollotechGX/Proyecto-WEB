@@ -1,14 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <!-- Configuracion basica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-</head>
-<body>
+    <title>Netflix Clone - Estructura HTML</title>
     
+    <!-- Vinculacion de Bootstrap Local -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
 
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Barra de navegacion o menu superior -->
+    <nav class="navbar navbar-dark bg-black sticky-top px-3 menu-superior">
+        <div class="container-fluid">
+            <!-- Logo principal en color rojo de Bootstrap -->
+            <a class="navbar-brand text-danger fw-bold fs-3 logo-plataforma" href="#">NETFLIX</a>
+            <span class="navbar-text text-secondary">Microproyecto Frontend</span>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal de la pagina -->
+    <main class="container my-5 contenedor-principal">
+        
+        <!-- Seccion de catalogo de videos -->
+        <section class="mb-5 seccion-videos">
+            <h2 class="text-light mb-4 fs-4 titulo-seccion">Tendencias actuales</h2>
+            
+            <!-- Fila para acomodar las tarjetas de forma responsiva -->
+            <div class="row fila-tarjetas">
+
+                <!-- Columna de la Tarjeta 1 (Se adapta al tamaño de la pantalla) -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4 columna-tarjeta">
+                    <!-- Contenedor de la tarjeta de video -->
+                    <div class="card bg-black text-white h-100 border-secondary tarjeta-video">
+                        <!-- Cuadro gris que simula la miniatura del video -->
+                        <div class="ratio ratio-16x9 bg-secondary d-flex align-items-center justify-content-center miniatura-video">
+                            <span class="text-light-50 small">Miniatura Video 1</span>
+                        </div>
+                        <!-- Contenido de texto de la tarjeta -->
+                        <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title fs-5 titulo-video">Título de la Serie 1</h5>
+                            <p class="card-text text-success small fw-bold info-video">98% de coincidencia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna de la Tarjeta 2 -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4 columna-tarjeta">
+                    <!-- Contenedor de la tarjeta de video -->
+                    <div class="card bg-black text-white h-100 border-secondary tarjeta-video">
+                        <!-- Cuadro gris que simula la miniatura del video -->
+                        <div class="ratio ratio-16x9 bg-secondary d-flex align-items-center justify-content-center miniatura-video">
+                            <span class="text-light-50 small">Miniatura Video 2</span>
+                        </div>
+                        <!-- Contenido de texto de la tarjeta -->
+                        <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title fs-5 titulo-video">Título de la Serie 2</h5>
+                            <p class="card-text text-success small fw-bold info-video">95% de coincidencia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Columna de la Tarjeta 3 -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4 columna-tarjeta">
+                    <!-- Contenedor de la tarjeta de video -->
+                    <div class="card bg-black text-white h-100 border-secondary tarjeta-video">
+                        <!-- Cuadro gris que simula la miniatura del video -->
+                        <div class="ratio ratio-16x9 bg-secondary d-flex align-items-center justify-content-center miniatura-video">
+                            <span class="text-light-50 small">Miniatura Video 3</span>
+                        </div>
+                        <!-- Contenido de texto de la tarjeta -->
+                        <div class="card-body cuerpo-tarjeta">
+                            <h5 class="card-title fs-5 titulo-video">Título de la Serie 3</h5>
+                            <p class="card-text text-success small fw-bold info-video">92% de coincidencia</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
