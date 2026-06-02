@@ -39,12 +39,12 @@ body {
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-/* Efecto Hover para simular la interactividad responsiva  lo intente pero no funciono o no supe hacerlo
+/* Efecto Hover para simular la interactividad responsiva */
 .movie-card:hover {
-    transform: scale(1.03);
-    border-color: #E50914;
+    transform: scale(1.05); /* Le subí a 1.05 para que notes mejor el efecto */
+    border-color: #E50914 !important; /* Añadimos !important para ganarle a las clases de Bootstrap */
     cursor: pointer;
-}*/
+}
 
 /*carga o miniatura del reproductor */
 .video-thumbnail {

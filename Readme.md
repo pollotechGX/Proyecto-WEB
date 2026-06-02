@@ -1,4 +1,1 @@
-Este es el tercer commit del proyecto, en este se implemento el archivo styles.css para terminar de darle forma al proyecto, este agrego colores, bordes redondeados, color de texto.
-
-de igual manera se aseguro que la interfaz en modo de dispositivos moviles funcionara correctamente
-se trato de implementar sin exito interactividad con las tarjetas y animaciones HOVER
+Este es el cuarto commit del proyecto, en este commit se arreglo la etiqueta HOVER que quedo pendiente, asi mismo se implemento una interaccion por medio de javascript al darle click a una de las tarjetas, tambien al pasar el cursor por ensima estas reaccionan con un hover

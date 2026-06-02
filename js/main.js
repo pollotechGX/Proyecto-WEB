@@ -1,7 +1,7 @@
 
 console.log("Hola mundo");
 
-//clic
+//clic intente hacerlo pero tampoco me salio pipipi
 document.addEventListener("DOMContentLoaded", () => {
     const tarjetas = document.querySelectorAll(".movie-card");
 
